@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace User
+//Ideas for refactoring
+//1.) Add password as argument for constructor so IsSetupComplete() is not needed
+//2.) have CreatePassword return a value so it's easier to test since Password property is private
+//3.)
+namespace UserNamespace
 {
     public class User
     {
